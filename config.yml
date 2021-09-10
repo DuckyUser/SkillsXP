@@ -1,0 +1,90 @@
+MySQL:
+  Enable: false 
+  Host: ""
+  Porta: 3306
+  User: ""
+  Password: ""
+  Database: ""
+  
+Mobs: #Quantidade de XP ganha
+  #Nome dos mobs em inglês
+  Zombie: 12.0
+  Pig: 5.0
+  Zombie Pigman: 2.0
+  
+Blocos: #Quantidade de XP ganha
+  1-0: 5
+  61-0: 3
+XP:
+  0: 40.0
+  1: 50.0
+  2: 30.0
+  3: 250.0
+  4: 500.0
+  5: 500.0
+    
+Multiplicador: #Em porcentagem
+  Forca: 5
+  Resistencia: 5
+  Vigor: 32
+  Destreza: 50
+  Agilidade: 10
+  
+Permissoes:
+  #permissões de bonus em porcentagem -> boostxp.Default -- boostxp.Vip
+  Default: 5
+  Vip: 5
+Inventario:
+  profile:
+    ID: 399
+    Data: 0
+    Slot: 4
+    Nome: "&6Seu perfil"
+    Lore:
+    - "&fPontos: &7%pontos%"
+  forca:
+    ID: 276
+    Data: 0
+    Slot: 11
+    Nome: "&aForça"
+    Lore:
+    - "&fSeu Nivel:&7 %forca%"
+    - "&8Clique para trocar seus pontos por um nivel"
+  agilidade:
+    ID: 309
+    Data: 0
+    Slot: 12
+    Nome: "&aAgilidade"
+    Lore:
+    - "&fSeu Nivel:&7 %agilidade%"
+    - "&8Clique para trocar seus pontos por um nivel"
+  destreza:
+    ID: 261
+    Data: 0
+    Slot: 13
+    Nome: "&aDestreza"
+    Lore:
+    - "&fSeu Nivel:&7 %destreza%"
+    - "&8Clique para trocar seus pontos por um nivel"
+  vigor:
+    ID: 377
+    Data: 0
+    Slot: 14
+    Nome: "&aVigor"
+    Lore:
+    - "&fSeu Nivel:&7 %vigor%"
+    - "&8Clique para trocar seus pontos por um nivel"
+  resistencia:
+    ID: 311
+    Data: 0
+    Slot: 15
+    Nome: "&aResistencia"
+    Lore:
+    - "&fSeu Nivel:&7 %resistencia%"
+    - "&8Clique para trocar seus pontos por um nivel"
+ 
+Mensagens:
+  UpLevel: "&aVoce acaba de passar para o nivel %nivel% e ganhar um ponto!"
+  Compra_Efetuada: "&6Voce trocou um ponto por um nivel de skills"
+  Compra_Erro: "&cVoce nao tem pontos para trocar"
+  
